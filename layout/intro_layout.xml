@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/intro_back"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/back_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/back_img"
+     >
+    </LinearLayout>
+    <TextView
+        android:text="Latest News"
+        android:textSize="50sp"
+        android:textColor="#ffffff"
+        android:translationX="55dp"
+        android:translationY="140dp"
+        android:background="@drawable/poster_custom"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_title" />
+    <ImageView
+        android:background="@drawable/car"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:translationY="240dp"
+        android:id="@+id/img_car" />
+    <ImageView
+        android:layout_width="140dp"
+        android:background="@drawable/chain"
+        android:layout_height="wrap_content"
+        android:translationX="135dp"
+        android:translationY="320dp"
+        android:id="@+id/img_chain" />
+    <ImageView
+        android:background="@drawable/people"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:translationX="250dp"
+        android:translationY="230dp"
+        android:id="@+id/img_people" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:translationY="500dp"
+        android:id="@+id/linearLayout1">
+
+        <TextView
+            android:text="News Taken from the New York Times Website"
+            android:gravity="center"
+            android:textColor="#ffffff"
+           
+     
+            android:textStyle="bold"
+            
+            android:background="@drawable/panel_background"
+        
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_mini" />
+    </LinearLayout>
+
+
+</RelativeLayout>
