@@ -15,6 +15,9 @@ The Top Stories Panel returns a list of articles currently on the specified sect
 The Article Search Panel is to look up articles by keyword. You can seek for any work and it will search for the articles that matches your keyword.
 
 
+Link to Download: https://play.google.com/store/apps/details?id=com.companyname.news_project 
+
+
 ![unname](https://user-images.githubusercontent.com/87811682/222461002-6764ebfc-2862-4b65-bedf-67402142bfd1.jpg)
 ![nnamed](https://user-images.githubusercontent.com/87811682/222461003-6bddcca5-096e-4941-bed1-d47f0ca00177.jpg)
 ![unnad](https://user-images.githubusercontent.com/87811682/222461006-21407aeb-ffee-4ed9-8db3-e3b8fc4eaccb.jpg)
