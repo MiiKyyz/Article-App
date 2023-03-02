@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"    
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/panel"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout2">
+
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:transitionName="transition"
+            android:layout_gravity="center"
+            android:id="@+id/imageViewAdapter" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout3">
+
+
+            <TextView
+                android:text="Title"
+                android:padding="10dp"
+                android:textStyle="bold|italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/txt_color"
+                android:fontFamily="@string/txt_font"
+                android:id="@+id/TitleAdapter" />
+
+
+
+
+            <TextView
+                android:text="s"
+                android:padding="12dp"
+                android:textStyle="bold|italic"
+                android:gravity="right|bottom"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/txt_color"
+                android:fontFamily="@string/txt_font"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/RankAdapter" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/panel2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:text="Text 1"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/txt_color"
+        android:layout_gravity="center"
+        android:fontFamily="@string/txt_font"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/viewed_title_panel_2" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:layout_gravity="center"
+        android:id="@+id/frameLayout1">
+
+        <ImageView
+            android:src="@drawable/loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:transitionName="transition_main_page"
+            android:id="@+id/viewed_img_2" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    
+
+
+    <TextView
+        android:text="parag"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:textSize="12sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic"
+        android:fontFamily="@string/txt_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewed_parag_panel_2" />
+
+</LinearLayout>

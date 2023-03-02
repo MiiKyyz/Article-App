@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/panel"
+        android:id="@+id/linearLayout1">
+
+        <TextView
+            android:text="@string/Loading_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:gravity="center"
+            android:textColor="@color/txt_color"
+            android:fontFamily="@string/txt_font"
+            android:textStyle="bold|italic"
+            android:id="@+id/title_adapter_wire" />
+
+
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:transitionName="transitio_wire"
+            android:id="@+id/img_adapter_wire" />
+
+        <TextView
+            android:text="@string/Loading_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|bottom"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/txt_color"
+            android:fontFamily="@string/txt_font"
+            android:textStyle="bold|italic"
+            android:id="@+id/byline_adapter_wire" />
+
+
+        
+
+    </LinearLayout>
+
+</LinearLayout>

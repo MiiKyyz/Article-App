@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout1">
+            <TextView
+                android:text="@string/Loading_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:textColor="@color/txt_color_blank"
+                android:fontFamily="@string/txt_font"
+                android:id="@+id/Tilte_wire_detail" />
+
+            <TextView
+                android:text="@string/Loading_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:textSize="14dp"
+                android:textColor="@color/txt_color_blank"
+                android:fontFamily="@string/txt_font"
+                android:id="@+id/Section_wire_detail" />
+
+
+
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:transitionName="transitio_wire"
+                android:id="@+id/img_wire_detail" />
+
+
+            
+
+
+            
+            <TextView
+                android:text="@string/Loading_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:gravity="center"
+                android:layout_margin="8dp"
+                android:textColor="@color/txt_color_blank"
+                android:fontFamily="@string/txt_font"
+                android:id="@+id/descrip_wire_detail" />
+            <TextView
+                android:text="@string/Loading_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="right"
+                android:textSize="14dp"
+                android:textColor="@color/txt_color_blank"
+                android:fontFamily="@string/txt_font"
+                android:id="@+id/bylinewire_detail" />
+            <Button
+                android:text="@string/btn_txt_article"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:fontFamily="@string/txt_font"
+    
+                android:id="@+id/url_wire_detail" />
+            <TextView
+                android:text="@string/Loading_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:layout_margin="8dp"
+                android:textColor="@color/txt_color_blank"
+                android:fontFamily="@string/txt_font"
+                android:id="@+id/copyright_wire_detail" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>
